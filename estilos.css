@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+}
+header{
+    position: fixed;
+    background-color: cornflowerblue;
+    width: 100%;
+}
+header h1{
+    text-align: center;
+    padding: 20px 60px;
+    color: chartreuse;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    background-color: chartreuse;
+}
+footer{
+    padding: 20px;
+    background-color: cornflowerblue;
+}
+footer h2{
+    text-align: center;
+    color: chartreuse;
+
+}
+.contenido{
+    padding: 100px 40px 40px 40px;
+    background-color: tan;
+    flex: 1;
+}
